@@ -1,25 +1,22 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
+import ImageComponent from './components/ImageComponent';
+import Title from './components/Title.jsx';
+
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    
+      <div className="App">
+      {/* <ButtonComponent  label = "process" style ={{color:"black", width:"50px",height:"50px", backgroundColor:"green"}}/>
+      <ImageComponent src={'../images/img'} alt={"ironman"}> */}
+      <ImageComponent img= "./img.jpg" alt= "ironman"/>
+      <Title heading="hello"/>
+      </div>
+
   );
 }
+
 
 export default App;
