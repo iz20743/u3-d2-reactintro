@@ -11,7 +11,7 @@ function App() {
       <div className="App">
       {/* <ButtonComponent  label = "process" style ={{color:"black", width:"50px",height:"50px", backgroundColor:"green"}}/>
       <ImageComponent src={'../images/img'} alt={"ironman"}> */}
-      <ImageComponent img= "./img.jpg" alt= "ironman"/>
+      <ImageComponent src= "http://placekitten.com/200/300" alt= "ironman"/>
       <Title heading="hello"/>
       </div>
 

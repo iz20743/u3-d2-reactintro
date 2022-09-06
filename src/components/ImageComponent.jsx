@@ -4,7 +4,7 @@ import{Component} from "react"
 
     render(){
         return(
-            <img src={this.props.img} alt={this.props.alt} />
+            <img src={this.props.src} alt={this.props.alt} />
         )
     }
 }
